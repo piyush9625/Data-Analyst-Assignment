@@ -53,31 +53,6 @@ The analysis is based on three datasets:
 - **GitHub**:
   - For version control and project organization.
 
-## Repository Structure
-```
-project-folder/
-├── data/
-│   ├── UserDetails.csv
-│   ├── CookingSessions.csv (if available)
-│   ├── OrderDetails.csv (if available)
-├── notebooks/
-│   ├── data_analysis.ipynb
-├── visualizations/
-│   ├── meal_popularity.png
-│   ├── order_trends_piechart.png
-├── README.md
-```
-
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Install required Python libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the Jupyter Notebook in `notebooks/` to reproduce the analysis and visualizations.
 
 ## Business Recommendations
 - Focus marketing efforts on Dinner, the most popular meal.
@@ -85,7 +60,3 @@ project-folder/
   - Younger users: Highlight Dinner specials.
   - Older users: Promote Breakfast options.
 - Explore regional preferences to offer localized meal options.
-
----
-
-For more details, refer to the analysis notebook in the `notebooks/` directory.
